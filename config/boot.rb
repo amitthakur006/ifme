@@ -10,3 +10,4 @@ if Gem::Specification.find_all_by_name('dotenv').any?
     dotenv_path = File.join('config', 'env', "#{environment}.env")
     Dotenv.load(dotenv_path)
 end
+
