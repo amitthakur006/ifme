@@ -26,7 +26,6 @@ services:
     stdin_open: true
     command: /bin/sh -c "bundle exec foreman start -f Procfile.dev"
 
-
   db:
     image: postgres:9.6-alpine
     ports:
